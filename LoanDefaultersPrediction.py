@@ -11,6 +11,6 @@ testdata = st.file_uploader("Please Upload the Unseen Test Data", type={"csv", "
 if testdata is not None:
   testdata_df = pd.read_csv(testdata)
 st.write(testdata_df)
-modelload = load_model('Final_model')
-unseen_predictions_new = predict_model(final, data=testdata_df)
+#modelload = load_model('Final_model')
+#unseen_predictions_new = predict_model(final, data=testdata_df)
 st.altair_chart(testdata_df, use_container_width=False)
