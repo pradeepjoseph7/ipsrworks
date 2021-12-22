@@ -22,6 +22,6 @@ st.write(count_col = testdata_df.shape[1])
 loaded_model = load_model('Final_model')
 #loaded_model = pickle.load(open(filename, 'rb'))
 predictions_df = predict_model(estimator=loaded_model, data=testdata_df)
-predictions = predictions_df['Label'][0]
+#predictions = predictions_df['Label'][0]
 st.write("Heart Failure Prediction Results are: ")
-st.write(predictions)
+st.write(predictions_df)
