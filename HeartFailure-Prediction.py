@@ -1,4 +1,4 @@
-pip install pycaret -q
+!pip install pycaret -q
 import streamlit as st
 import pandas as pd
 import pickle
