@@ -1,4 +1,4 @@
-pip==21.3.1
+python==3.9.4
 pycaret==2.2.3
 pandas==1.1.2
 numpy==1.19.2
