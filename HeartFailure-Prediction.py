@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import pickle
+#import pickle
 from pycaret.classification import load_model, predict_model
 
 st.write("Heart Failure Prediction Web App")
