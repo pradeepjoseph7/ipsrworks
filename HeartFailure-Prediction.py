@@ -13,9 +13,9 @@ if testdata is not None:
   testdata_df = pd.read_csv(testdata)
   st.write("Number of records in the prediction data are : ")
   #st.dataframe(testdata_df)
-  st.write(testdata_df.count())
-  st.write(count_row = testdata_df.shape[0])  # Gives number of rows
-  st.write(count_col = testdata_df.shape[1])
+  #st.write(testdata_df.count())
+  #st.write(count_row = testdata_df.shape[0])  # Gives number of rows
+  #st.write(count_col = testdata_df.shape[1])
 #modelload = load_model('Final_model')
 #unseen_predictions_new = predict_model(final, data=testdata_df)
 #st.altair_chart(testdata_df, use_container_width=False)
